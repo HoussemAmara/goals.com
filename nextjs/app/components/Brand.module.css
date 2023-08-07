@@ -1,0 +1,30 @@
+.brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    white-space: nowrap;
+    color: #363d47;
+    color: rgba(0, 0, 0, 0.9);
+    width: 15rem;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.brand:hover,
+.brand:focus {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.brand img {
+    height: 2rem;
+    width: 2rem;
+}
+
+@media (min-width: 992px) {
+    .brand {
+        width: 12rem;
+    }
+}
